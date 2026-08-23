@@ -36,6 +36,45 @@ nav a:hover{
     background-image: url("image/banner.jpg");
     background-size: cover;
     background-position: right;
+    display: flex;
+    align-items: center;
+}
+
+.azeez div{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    margin-left: 4rem;
+}
+
+.azeez h5{
+    font-size: 1.5rem;
+    color: darkred;
+}
+
+.azeez h2{
+    font-size: 3.5rem;
+    color: darkred;
+    font-weight: bold;
+}
+
+.azeez aside{
+    display: flex;
+    gap: 20px;
+}
+
+.azeez button{
+    padding: 10px;
+    background-color: crimson;
+    color: aliceblue;
+}
+
+.azeez button:hover{
+    padding: 10px;
+    background-color: darkred;
+    cursor: pointer;
+    border: none;
 }
 
 footer{
@@ -43,7 +82,14 @@ footer{
     justify-content: space-between;
     background-color: black;
     color:blue;
+    padding: 20px;
 }
 
-div{border-right: 10px solid white;
+div{
+    border-right: 10px solid white;
 }
+
+header img{
+    cursor: pointer;
+}
+
